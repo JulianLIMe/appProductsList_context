@@ -2,9 +2,40 @@
   position: absolute;
   top: 0rem;
   padding: 5px;
+  width: fit-content;
+}
+
+.container_form form .b_responsive {
+  display: none;
 }
 
 .container_form input {
   margin: 0 7px;
   padding: 3px;
+}
+
+@media (max-width: 640px) {
+  .container_form {
+    width: 60%;
+  }
+
+  .container_form form .b {
+    display: none;
+  }
+
+  .container_form input {
+    width: 35%;
+  }
+
+  .container_form form .b_responsive {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    font-size: 15px;
+    position: absolute;
+    top: 0.15rem;
+    right: 0.5rem;
+  }
 }

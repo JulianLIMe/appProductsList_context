@@ -52,7 +52,8 @@ const AddProduct = () => {
           value={product.price}
           onChange={(e) => handleChange(e)}
         />
-        <button>Add Product</button>
+        <button className="b_responsive">+</button>
+        <button className="b">Add Product</button>
       </form>
     </div>
   );

@@ -1,0 +1,40 @@
+.container_products {
+  display: block;
+  margin-top: 3em;
+  border: 2px solid rgb(0, 0, 0, 0.3);
+  border-radius: 10px;
+  padding: 10px;
+  width: 490px;
+  height: 300px;
+  overflow-y: auto;
+}
+
+.container_products .product {
+  display: flex;
+  justify-content: space-between;
+  place-items: center;
+  height: 30px;
+  margin: 5px 10px;
+  padding: 0 25px;
+  position: relative;
+}
+
+.container_products .product .floor {
+  height: 0.5px;
+  width: 90%;
+  background-color: #ffff;
+  position: absolute;
+  bottom: -0.1em;
+}
+
+.container_products .product p:hover {
+  color: #646cff;
+  cursor: pointer;
+}
+
+.container_products .product button {
+  height: 25px;
+  width: 25px;
+  padding: 5px;
+  font-size: 10px;
+}

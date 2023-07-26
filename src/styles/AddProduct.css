@@ -1,0 +1,10 @@
+.container_form {
+  position: absolute;
+  top: 0rem;
+  padding: 5px;
+}
+
+.container_form input {
+  margin: 0 7px;
+  padding: 3px;
+}
